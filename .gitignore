@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# vscode
+.vscode/
+.
+
+# mac
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+*.dSYM
+*.plist
