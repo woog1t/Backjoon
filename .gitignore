@@ -27,13 +27,15 @@
 *.lib
 
 # Executables
+*.exec
 *.exe
 *.out
 *.app
 
+
 # vscode
-.vscode/
-.
+.vscode/tasks.json
+*.json
 
 # mac
 .DS_Store
@@ -42,4 +44,13 @@
 **/._.DS_Store
 
 *.dSYM
+*.dSYM/
+*.dSYM/Contents/
+
+*.yml
 *.plist
+
+# exec file
+*
+!*.*
+!*/
